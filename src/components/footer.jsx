@@ -8,32 +8,29 @@ export default function Footer() {
         <>
         <hr className="text-gray-300"/>
         <footer class="py-12">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-6 md:mb-0">
-                    <a href="#" class="text-2xl font-bold">Portfolio</a>
-                    <p class="mt-2">© 2023 Alex Carter. All rights reserved.</p>
-                </div>
+        <div class="max-w-screen-2xl container mx-auto px-4 md:px-20">
+            <div class="flex flex-col justify-between items-center">
                 
-                <div class="flex space-x-6">
-                    <a href="#" class="text-black hover:text-primary transition">
+                
+                <div class="flex space-x-4">
+                    {/* <a href="#" class="text-black hover:text-primary transition"> */}
                         <FaGithub className="md:text-3xl text-2xl cursor-pointer"/>
-                    </a>
-                    <a href="#" class="text-black hover:text-blue-600 transition">
+                    {/* </a> */}
+                    {/* <a href="#" class="text-black hover:text-blue-600 transition"> */}
                         <FaLinkedin className="md:text-3xl text-2xl cursor-pointer"/>
-                    </a>
-                    <a href="#" class="text-black hover:text-blue-400 transition">
+                    {/* </a> */}
+                    {/* <a href="#" class="text-black hover:text-blue-400 transition"> */}
                     <FaFacebook className="md:text-3xl text-2xl cursor-pointer"/>
-                    </a>
-                    <a href="#" class="text-black hover:text-pink-600 transition">
+                    {/* </a> */}
+                    {/* <a href="#" class="text-black hover:text-pink-600 transition"> */}
                     <FaInstagramSquare className="md:text-3xl text-2xl cursor-pointer"/>
-                    </a>
+                    {/* </a> */}
                 </div>
+            <div class="border-t border-gray-500 mt-8 pt-8 flex flex-col items-center">
+                <p className="text-sm">© 2025 Personal Portfolio. All rights reserved.</p>
+            </div>
             </div>
             
-            <div class="border-t border-slate-500 mt-8 pt-8 text-center">
-                <p>Made with <i class="fas fa-heart text-red-500"></i> and lots of <i class="fas fa-coffee text-amber-500"></i></p>
-            </div>
         </div>
     </footer>
         </>

@@ -37,7 +37,7 @@ export default function About() {
             <p>Master of Computer Applications from Maharaja Agrasen Institute of Mgt and Tech, 2025.</p>
             <p>Certified by Next Algorithms Web Development course, 2023.</p><br/>
             <h1 className="text-blue-500 font-semibold text-xl mb-1">Professional Experience</h1>
-            <p>Software Developer ,LDT Technology ,sep 2024 - jul 2025. Developed Frontend solutions and created Backend services i.e. APIs.</p><br/>
+            <p>Software Developer Executive Intern ,Virtualize Technologies, Mohali, Punjab (jan 2026 - apr 2026). Developed canvas based,2D and 3D games in unity and deployed their builds for web platforms support.</p><br/>
             <h1 className="text-blue-500 font-semibold text-xl mb-1">Achievements and Awards</h1>
             <p>Won 3rd prize in Coding Hustle competition by Maharaja Agrasen Institute of Mgt and Tech.</p><br/>
             <h1 className="text-blue-500 font-semibold text-xl mb-1">Mission Statement</h1>

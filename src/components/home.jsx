@@ -20,7 +20,7 @@ export default function Home() {
                 <h1>Hello I'm a &nbsp;</h1>
                 {/* <span className="text-red-700 font-bold">Developer</span> */}
                 <ReactTyped className="text-red-700 font-bold"
-                strings={["Developer","Programmer","Coder"]}
+                strings={["Web Developer","Programmer","Game Coder","Tech Enthusiast"]}
                 typedSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -53,6 +53,7 @@ export default function Home() {
                 </div>
                 </div>
             </div>
+ 
             <div className="md:w-2/5 mt-10 md:mt-20 md:ml-30 order-1">
             <img className="w-full h-[400px] md:w-[400px] md:h-[400px] rounded-full" src={pic} alt=""/>
             </div>
