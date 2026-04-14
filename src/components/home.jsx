@@ -1,5 +1,5 @@
 import React from "react"
-import pic from "../../public/vite.svg";
+import pic from "../../public/Firefly.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -27,8 +27,7 @@ export default function Home() {
                 />
             </div>
             <br/>
-            <p className="text-md md:text-lg text-justify">Lorem djfhjd fjksdkj djksfsdjk dfsjk hdfbjh jhdbjh h sdfhbjsdfh hdbfh hdbfsjhd hsdfb jkf wehfbjh 
-                hejfb jefh kjk jdjk jksjksjkfkj jkjfdkjdf jkfkjdjfkjk kdjfksdfj dskjfsdkfjd djkfsfj jkds</p>
+            <p className="text-md md:text-lg text-justify">I am a Web Developer and Game Programmer who loves turning ideas into interactive digital experiences. From building responsive web applications using React and Node.js to developing engaging games in Unity, I focus on performance, user experience, and clean architecture. I am continuously learning and aiming to contribute to impactful tech projects.</p>
                 <br/>
                 
                 {/* social media icons */}
@@ -36,10 +35,10 @@ export default function Home() {
                 <div className="space-y-1">
                     <h1 className="font-bold text-center md:text-start">Available on</h1>
                     <ul className="flex space-x-5">
-                    <li><a href='' target="_blank"><FaFacebook className="md:text-3xl text-2xl cursor-pointer"/></a></li>
-                    <li><a href='' target="_blank"><FaInstagramSquare className="md:text-3xl text-2xl cursor-pointer"/></a></li>
-                    <li><a href='' target="_blank"><FaLinkedin className="md:text-3xl text-2xl cursor-pointer"/></a></li>
-                    <li><a href="" target="_blank"><FaGithub className="md:text-3xl text-2xl cursor-pointer"/></a></li>
+                    <li><a href='https://www.facebook.com/jaspreet.singh2808' target="_blank"><FaFacebook className="md:text-3xl text-2xl cursor-pointer"/></a></li>
+                    <li><a href='https://www.instagram.com/jas_preet1234singh/' target="_blank"><FaInstagramSquare className="md:text-3xl text-2xl cursor-pointer"/></a></li>
+                    <li><a href='https://www.linkedin.com/in/jaspreetsingh2882000/' target="_blank"><FaLinkedin className="md:text-3xl text-2xl cursor-pointer"/></a></li>
+                    <li><a href="https://github.com/Jaspreet-Singh-430/" target="_blank"><FaGithub className="md:text-3xl text-2xl cursor-pointer"/></a></li>
                     </ul>
                 </div>
                 <div className='space-y-1'>
@@ -55,7 +54,8 @@ export default function Home() {
             </div>
  
             <div className="md:w-2/5 mt-10 md:mt-20 md:ml-30 order-1">
-            <img className="w-full h-[400px] md:w-[400px] md:h-[400px] rounded-full" src={pic} alt=""/>
+            <img className="w-full h-[400px] md:w-[400px] md:h-[400px] rounded-full shadow-2xl 
+             shadow-cyan-700" src={pic} alt=""/>
             </div>
             </div>
         </div>

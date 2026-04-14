@@ -61,9 +61,9 @@ const experience = () => {
             {
                 cardItems.map(({id,title,image})=>{
                     return (
-                        <div key={id} className="flex flex-col items-center md:w-[150px] md:h-[150px]justify-center rounded-full p-1 cursor-pointer hover:scale-110 duration-300">
-                            <img src={image} alt={title} className="w-[150px] h-[150px] rounded-full " />
-                            <div>
+                        <div key={id} className="flex flex-col items-center md:w-[200px] md:h-[200px] justify-between rounded-full p-1 cursor-pointer hover:scale-110 duration-300">
+                            <img src={image} alt={title} className="w-[150px] h-[150px] rounded-full" />
+                            <div className='mt-3'>
                                 <div>{title}</div>
                             </div>
                             

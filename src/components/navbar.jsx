@@ -2,7 +2,7 @@ import React,{useState} from "react"
 import { Link } from "react-scroll"
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
-import pic from "../../public/vite.svg"
+import pic from "../../public/Firefly.jpg";
 export default function Navbar() {
     const [menu,setMenu]=useState(false)
     const navItems=[

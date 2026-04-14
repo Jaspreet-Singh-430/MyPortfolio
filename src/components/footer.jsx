@@ -13,18 +13,18 @@ export default function Footer() {
                 
                 
                 <div class="flex space-x-4">
-                    {/* <a href="#" class="text-black hover:text-primary transition"> */}
+                    <a href="https://github.com/Jaspreet-Singh-430/" class="text-black hover:text-primary transition">
                         <FaGithub size={24} className="md:text-3xl text-2xl cursor-pointer"/>
-                    {/* </a> */}
-                    {/* <a href="#" class="text-black hover:text-blue-600 transition"> */}
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaspreetsingh2882000/" class="text-black hover:text-blue-600 transition">
                         <FaLinkedin size={24} className="md:text-3xl text-2xl cursor-pointer"/>
-                    {/* </a> */}
-                    {/* <a href="#" class="text-black hover:text-blue-400 transition"> */}
+                    </a>
+                    <a href="https://www.facebook.com/jaspreet.singh2808" class="text-black hover:text-blue-400 transition">
                     <FaFacebook size={24} className="md:text-3xl text-2xl cursor-pointer"/>
-                    {/* </a> */}
-                    {/* <a href="#" class="text-black hover:text-pink-600 transition"> */}
+                    </a>
+                    <a href="https://www.instagram.com/jas_preet1234singh/" class="text-black hover:text-pink-600 transition">
                     <FaInstagramSquare size={24} className="md:text-3xl text-2xl cursor-pointer"/>
-                    {/* </a> */}
+                    </a>
                 </div>
             <div class="border-t border-gray-500 mt-8 pt-8 flex flex-col items-center">
                 <p className="text-sm">© 2025 Personal Portfolio. All rights reserved.</p>

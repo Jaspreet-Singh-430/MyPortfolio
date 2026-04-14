@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 export default function App() {
   return(
     <>
-    <div className="bg-dark">
+    <div className="">
     <Navbar/>
     <Home/>
     <About/>
