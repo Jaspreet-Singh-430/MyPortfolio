@@ -14,16 +14,16 @@ export default function Footer() {
                 
                 <div class="flex space-x-4">
                     {/* <a href="#" class="text-black hover:text-primary transition"> */}
-                        <FaGithub className="md:text-3xl text-2xl cursor-pointer"/>
+                        <FaGithub size={24} className="md:text-3xl text-2xl cursor-pointer"/>
                     {/* </a> */}
                     {/* <a href="#" class="text-black hover:text-blue-600 transition"> */}
-                        <FaLinkedin className="md:text-3xl text-2xl cursor-pointer"/>
+                        <FaLinkedin size={24} className="md:text-3xl text-2xl cursor-pointer"/>
                     {/* </a> */}
                     {/* <a href="#" class="text-black hover:text-blue-400 transition"> */}
-                    <FaFacebook className="md:text-3xl text-2xl cursor-pointer"/>
+                    <FaFacebook size={24} className="md:text-3xl text-2xl cursor-pointer"/>
                     {/* </a> */}
                     {/* <a href="#" class="text-black hover:text-pink-600 transition"> */}
-                    <FaInstagramSquare className="md:text-3xl text-2xl cursor-pointer"/>
+                    <FaInstagramSquare size={24} className="md:text-3xl text-2xl cursor-pointer"/>
                     {/* </a> */}
                 </div>
             <div class="border-t border-gray-500 mt-8 pt-8 flex flex-col items-center">

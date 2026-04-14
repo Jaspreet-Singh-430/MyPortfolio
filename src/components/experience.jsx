@@ -51,7 +51,7 @@ const experience = () => {
             }
         ]
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
+    <div name="Skills" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
         <div>
             <h1 className="text-3xl font-bold mb-5">Skills</h1>
             <p className=''>I have more than 9 months of experience in below technologies except unity(3 months).</p>

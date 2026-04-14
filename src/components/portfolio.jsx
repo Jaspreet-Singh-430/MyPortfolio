@@ -61,7 +61,7 @@ const portfolio = () => {
         
     ]
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10">
+    <div name="Projects" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10">
         <div>
             <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
             <span className='underline font-semibold'>Featured Projects</span>

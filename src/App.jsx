@@ -6,8 +6,10 @@ import Portfolio from "./components/portfolio.jsx"
 import Footer from './components/footer.jsx'
 import Contact from "./components/contact.jsx"
 import Experience from "./components/experience.jsx"
+import { Toaster } from "react-hot-toast";
 export default function App() {
   return(
+    <>
     <div className="bg-dark">
     <Navbar/>
     <Home/>
@@ -18,5 +20,7 @@ export default function App() {
     <Footer/>
     {/* <div className="text-pink-500 font-bold">Hello</div> */}
     </div>
+    <Toaster />
+    </>
   )
 }

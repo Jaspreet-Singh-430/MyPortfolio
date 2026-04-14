@@ -1,4 +1,5 @@
 import React,{useState} from "react"
+import { Link } from "react-scroll"
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import pic from "../../public/vite.svg"
@@ -42,19 +43,31 @@ return(
             <ul className=" hidden md:flex space-x-8 ">
                 {
                     navItems.map(({id,text})=>(
-                    <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>{text}</li>
+                    <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>
+                        <Link to={text}
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        activeClass="active">{text}</Link>
+                        </li>
                     ))
                 }
             </ul>
-            <div onClick={()=>setMenu(!menu)} className="md:hidden">{menu?<MdMenu size={24}/>:<IoMdClose size={24}/>}</div>
+            <div onClick={()=>setMenu(!menu)} className="md:hidden">{menu?<IoMdClose size={28}/>:<MdMenu size={28}/>}</div>
         </div>
     </div>
     {
         menu && (
-    <div>
+    <div className="bg-white">
         <ul className="md:hidden flex flex-col items-center justify-center h-screen space-y-4">
             {navItems.map(({id,text})=>(
-                <li className="font-semibold text-xl hover:scale-105 duration-200 cursor-pointer" key={id}>{text}</li>
+                <li className="font-semibold text-xl hover:scale-105 duration-200 cursor-pointer" key={id}>
+                    <Link onClick={()=>setMenu(!menu)} to={text}
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        activeClass="active">{text}</Link>
+                </li>
                 ))}
         </ul>
     </div>
