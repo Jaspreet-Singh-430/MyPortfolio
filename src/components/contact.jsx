@@ -21,7 +21,7 @@ export default function Contact() {
     }
     console.log(userInfo)
     try {
-        const response=await axios.post("http://localhost:5000/send-email", userInfo);
+        const response=await axios.post("https://mailhandler-qf4n.onrender.com/send-email", userInfo);
         console.log(response.data)
         toast.success("Message sent successfully")
     }
