@@ -80,7 +80,7 @@ const portfolio = () => {
             image:NoteTaker,
             description:" A simple note-taking app that allows users to create, edit, and delete notes.",
             liveDemoLink:"https://note-taking-app-tan-ten.vercel.app/",
-            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/NoteTaker"
+            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/NoteTakingApp"
 
         }
         
