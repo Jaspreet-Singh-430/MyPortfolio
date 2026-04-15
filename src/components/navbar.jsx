@@ -30,7 +30,7 @@ export default function Navbar() {
     console.log(navItems)
 return(
     <>
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-20 shadow-md bg-white z-5 fixed top-0 right-0 left-0">
+    <div className="w-full container mx-auto px-4 md:px-20 h-20 shadow-md bg-white z-5 fixed top-0 right-0 left-0">
     <div className="flex justify-between h-20 items-center">
         <div className="flex space-x-5">
             <img src={pic} alt="" className="h-14 w-14 rounded-full"/>
