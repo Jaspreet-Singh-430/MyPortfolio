@@ -104,7 +104,7 @@ const portfolio = () => {
             {
                 cardItems.map(({id,title,image,description,sourceCodeLink,liveDemoLink})=>{
                     return (
-                        <div key={id} className="flex flex-col justify-between md:w-[280px] border-[2px] h-auto border-gray-300 rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
+                        <div key={id} className="flex flex-col justify-between lg:w-[280px] border-[2px] h-auto border-gray-300 rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
                             <img src={image} alt={title} className="w-full h-[200px] p-1 rounded-lg" />
                             <div className=''>
                                 <div className='font-bold text-xl mb-2 px-2'>{title}</div>
