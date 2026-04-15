@@ -98,7 +98,7 @@ const portfolio = () => {
         <div>
             <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
             <span className='underline font-semibold'>Featured Projects</span>
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-x-20 gap-y-5 my-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-8 my-5'>
 
             
             {
