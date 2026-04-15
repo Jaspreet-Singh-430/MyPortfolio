@@ -1,7 +1,7 @@
 import React from "react"
 import { useForm} from "react-hook-form";
 import axios from "axios"
-// import toast from "react-hot-toast";
+import toast from "react-hot-toast";
 // toast.configure()
 export default function Contact() {
     
@@ -19,14 +19,10 @@ export default function Contact() {
         email:data.email,
         message:data.message
     }
+    console.log(userInfo)
     try {
-        await axios.post("https://forminit.com/f/qltzcah65xp", userInfo 
-            // headers: {
-            //     // 'Content-Type': 'application/json',
-            //     'allow-control-allow-origin': 'https://forminit.com/f/qltzcah65xp'
-            //     // 'access-control-allow-headers': 'Content-Type'
-            // }
-        )
+        const response=await axios.post("http://localhost:5000/send-email", userInfo);
+        console.log(response.data)
         toast.success("Message sent successfully")
     }
     catch(error){
@@ -38,7 +34,7 @@ export default function Contact() {
         <h1 className="text-3xl font-bold mb-4">Contact me</h1>
         <span>Please fill out the form below to contact me</span>
         <div className="flex flex-col items-center justify-center mt-5">
-            <form onSubmit={handleSubmit(onSubmit)} className="bg-slate-200 w-96 px-8 py-6 rounded-xl">
+            <form className="bg-slate-200 w-96 px-8 py-6 rounded-xl">
                 <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
                 <div className="flex flex-col mb-4">
                     <label className="block text-gray-700" htmlFor="name">Fullname</label>
@@ -47,7 +43,7 @@ export default function Contact() {
                     id="name"
                     name="name" 
                     placeholder="Enter your fullname" />
-                    {errors.name && <span>This field is required</span>}
+                    {errors.name && <span className="text-red-500">This field is required</span>}
                 </div>
                 <div className="flex flex-col mb-4">
                     <label className="block text-gray-700" htmlFor="email">Email</label>
@@ -56,7 +52,7 @@ export default function Contact() {
                     id="email"
                     name="email"
                     placeholder="Enter your email address" />
-                    {errors.email && <span>This field is required</span>}
+                    {errors.email && <span className="text-red-500">This field is required</span>}
                 </div>
                 <div className="flex flex-col mb-4">
                     <label className="block text-gray-700" htmlFor="message">Message</label>
@@ -64,9 +60,9 @@ export default function Contact() {
                     id="message"
                     name="message"
                     placeholder="Enter your message" ></textarea>
-                          {errors.message && <span>This field is required</span>}
+                          {errors.message && <span className="text-red-500">This field is required</span>}
                 </div>
-                <button type="submit" value="submit" className="bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300">Send</button>
+                <button type="button" onClick={handleSubmit(onSubmit)} value="submit" className="bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-500 duration-300 cursor-pointer ">Send</button>
             </form>
         </div>
         </div>
