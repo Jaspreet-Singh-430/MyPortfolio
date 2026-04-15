@@ -14,6 +14,7 @@ import zegocloud from '../assets/zegocloud.png'
 import ShoppingCart from '../assets/ShoppingCart.png'
 import grocery from '../assets/grocery.png'
 import Bookstore from '../assets/Bookstore.png'
+import NoteTaker from '../assets/NoteTaker.png'
 import toast from 'react-hot-toast'
 const portfolio = () => {
     const cardItems = [
@@ -72,6 +73,15 @@ const portfolio = () => {
             description:" A simple implementation of the classic game Rock Paper Scissor, where players choose one of the three options and compete against the computer.",
             liveDemoLink:"https://jaspreet-singh-430.github.io/RockPaperScissors/",
             sourceCodeLink:"https://github.com/Jaspreet-Singh-430/RockPaperScissors/tree/rpss"
+        },
+        {
+            id:8,
+            title:"Note Taker",
+            image:NoteTaker,
+            description:" A simple note-taking app that allows users to create, edit, and delete notes.",
+            liveDemoLink:"https://note-taking-app-tan-ten.vercel.app/",
+            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/NoteTaker"
+
         }
         
     ]
