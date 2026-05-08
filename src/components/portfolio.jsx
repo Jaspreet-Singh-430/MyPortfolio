@@ -89,7 +89,7 @@ const portfolio = () => {
             title:"Tinder-Clone",
             image:tinderClone,
             description:"A modern full-stack dating application inspired by Tinder, built with React, Node.js, Express, MongoDB, and Socket.IO. Users can create profiles, upload photos, swipe through profiles, match with other users, and chat in real time.",
-            liveDemoLink:"https://tinder-clone-ou6k.vercel.app/",
+            liveDemoLink:"https://tinder-clone-ou6k.vercel.app",
             sourceCodeLink:"https://github.com/Jaspreet-Singh-430/Tinder-Clone"
         }
         
