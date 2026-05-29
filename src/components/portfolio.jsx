@@ -15,6 +15,7 @@ import ShoppingCart from '../assets/ShoppingCart.png'
 import grocery from '../assets/grocery.png'
 import Bookstore from '../assets/Bookstore.png'
 import TinderClone from '../assets/TinderClone.png'
+import LinkedClone from '../assets/LinkedClone.png'
 import toast from 'react-hot-toast'
 const portfolio = () => {
     const cardItems = [
@@ -90,6 +91,14 @@ const portfolio = () => {
             description:"A modern full-stack dating application inspired by Tinder, built with React, Node.js, Express, MongoDB, and Socket.IO. Users can create profiles, upload photos, swipe through profiles, match with other users, and chat in real time.",
             liveDemoLink:"https://tinder-clone-ou6k.vercel.app/",
             sourceCodeLink:"https://github.com/Jaspreet-Singh-430/Tinder-Clone"
+        },
+        {
+            id:10,
+            title:"Linkedin-Clone",
+            image:LinkedClone,
+            description:"A full-stack social networking platform built with React, Node.js, Express, MongoDB, and Socket.IO. Users can create profiles, connect with other users, and share posts and comments in real time.",
+            liveDemoLink:"https://linkedinclone-ir92.onrender.com",
+            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/LinkedinClone"
         }
         
     ]
