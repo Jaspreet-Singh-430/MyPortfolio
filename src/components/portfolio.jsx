@@ -9,7 +9,7 @@ import unity from  '../assets/unity.png'
 import FruitNinja from '../assets/FruitNinja.png'
 import Endless from '../assets/Endless.png'
 import RockPaperScissor from '../assets/RockPaperScissor.png'
-import zegocloud from '../assets/zegocloud.png'
+import RealChat from '../assets/RealChat.png'
 import ShoppingCart from '../assets/ShoppingCart.png'
 import grocery from '../assets/grocery.png'
 import Bookstore from '../assets/Bookstore.png'
@@ -45,11 +45,11 @@ const portfolio = () => {
         },
         {
             id:4,
-            title:"ZegoCloud Video Conferencing app",
-            image:zegocloud,
-            description:" A video conferencing app that allows users to join a video call and chat with other participants.",
-            liveDemoLink:"https://zego-cloud-video-call-app-mu.vercel.app/",
-            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/ZegoCloudVideoCallApp"
+            title:"Realtime Chat App",
+            image:RealChat,
+            description:" A real-time chat application that allows users to communicate by sending and receiving messages and images with each other in real-time.",
+            liveDemoLink:"https://realtime-chat-app-rcmq.onrender.com/",
+            sourceCodeLink:"https://github.com/Jaspreet-Singh-430/Realtime-Chat-App"
         },
         {
             id:5,
